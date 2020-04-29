@@ -1,0 +1,286 @@
+ÀÄmain
+   ÃÄMAIN  0/216  Ram=1
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄlcd_init  0/110  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄlcd_send_nibble  0/64  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄlcd_send_nibble  0/64  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄ@const794  0/30  Ram=0
+   ³  ³  ÀÄlcd_send_byte  0/70  Ram=3
+   ³  ³     ÃÄlcd_read_byte  0/74  Ram=3
+   ³  ³     ³  ÃÄlcd_read_nibble  0/82  Ram=2
+   ³  ³     ³  ÀÄlcd_read_nibble  0/82  Ram=2
+   ³  ³     ÃÄlcd_send_nibble  0/64  Ram=1
+   ³  ³     ÀÄlcd_send_nibble  0/64  Ram=1
+   ³  ÃÄlcd_set_cgram_char  0/74  Ram=5
+   ³  ³  ÃÄlcd_send_byte  0/70  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_send_byte  0/70  Ram=3
+   ³  ³     ÀÄ*
+   ³  ÃÄread_temp  0/68  Ram=0
+   ³  ³  ÃÄ@SPI_XFER_1  0/86  Ram=6
+   ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄbegin  0/80  Ram=1
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ³  ÀÄlcd_send_byte  0/70  Ram=3
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄlcd_send_byte  0/70  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlcd_send_byte  0/70  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄlcd_send_byte  0/70  Ram=3
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄlcd_putc  0/80  Ram=1
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄmode  0/482  Ram=0
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_813  0/30  Ram=3
+   ³  ³  ³  ÀÄlcd_putc  0/80  Ram=1
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LU_813  0/178  Ram=9
+   ³  ³  ³  ÀÄlcd_putc  0/80  Ram=1
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÃÄtono  0/250  Ram=2
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/142  Ram=13
+   ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/142  Ram=13
+   ³  ³  ³  ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ³  ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/142  Ram=13
+   ³  ³  ³  ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ³  ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ³  ³  ³  ÃÄ@MUL3232  0/86  Ram=14
+   ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/142  Ram=13
+   ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/142  Ram=13
+   ³  ³  ³  ³  ³  ÃÄdo_delay  0/54  Ram=5
+   ³  ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ³  ³  ³  ÀÄ@delay_us1  0/32  Ram=1
+   ³  ³  ³  ³  ³  ÀÄdo_delay  0/54  Ram=5
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ³  ÃÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄgenerate_tone  0/472  Ram=26
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄtono  0/250  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄtono  0/250  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄtono  0/250  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄtono  0/250  Ram=2
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_813  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LU_813  0/178  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_813  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LU_813  0/178  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄrun  0/708  Ram=1
+   ³  ³  ÃÄread_temp  0/68  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄcontrol  0/72  Ram=2
+   ³  ³  ³  ÃÄread_temp  0/68  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄaabs  0/36  Ram=1
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LU_813  0/178  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_813  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LU_813  0/178  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtono  0/250  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄcontrol  0/72  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LU_813  0/178  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_813  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LU_813  0/178  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄend  0/370  Ram=1
+   ³  ³  ÃÄread_temp  0/68  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_813  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/34  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_813  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LU_813  0/178  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/80  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_813  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtono  0/250  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄbuttons  0/268  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ÀÄTIMER1_isr  0/44  Ram=0

@@ -1,0 +1,5 @@
+*** Error 44 "C:\Program Files (x86)\PICC\Devices\18F2550.h" Line 21(21,22): Internal Error - Contact CCS  CLF
+--- Info 300 "C:\Program Files (x86)\PICC\Devices\18F2550.h" Line 36(33,34): More info:   *3* I/O error 103
+--- Info 300 "C:\Program Files (x86)\PICC\Devices\18F2550.h" Line 36(33,34): More info:   *3* I/O error 103
+      1 Errors,  0 Warnings.
+Build Failed.

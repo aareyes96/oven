@@ -1,0 +1,240 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     v
+017     q
+018     counter
+019     seconds
+01A-01B minutes
+01C-01D tmp
+01E     flag
+01F     flag1
+020-021 b
+022     open_
+023-024 preheating
+025-026 pre_temperature
+027-028 heating
+029-02A temperature
+02B-032 ptr
+033     mode.d
+033-034 control.t
+033     lcd_set_cgram_char.which
+033-036 atan2.y
+033     lcd_init.i
+033     begin.@SCRATCH1
+033     run.@SCRATCH1
+033     end.@SCRATCH1
+033     MAIN.@SCRATCH1
+034     mode.d
+034-035 lcd_set_cgram_char.ptr
+034     lcd_init.@SCRATCH1
+035     mode.d
+035     control.x
+036-037 @SPI_XFER_1.P1
+036     aabs.e
+036     lcd_set_cgram_char.i
+036-037 @PRINTF_LU_813.P1
+036     tono.who
+036     @PSTRINGCN_813.P1
+036     @PSTRINGC_813.@SCRATCH1
+037-03A atan2.x
+037-038 generate_tone.frequency
+037     lcd_set_cgram_char.@SCRATCH1
+037     tono.@SCRATCH1
+037     @PSTRINGC_813.@SCRATCH2
+037     @PSTRINGCN_813.@SCRATCH1
+038     @SPI_XFER_1.P1
+038     @PSTRINGCN_813.@SCRATCH2
+038     @PRINTF_LU_813.@SCRATCH1
+039-03A generate_tone.duration
+039     @SPI_XFER_1.@SCRATCH1
+039     @PRINTF_LU_813.@SCRATCH2
+03A     @SPI_XFER_1.@SCRATCH2
+03A     @PRINTF_LU_813.@SCRATCH3
+03B-03E generate_tone.total_delay_time
+03B-03E atan2.z
+03B     @PRINTF_LU_813.@SCRATCH4
+03C     @PRINTF_LU_813.@SCRATCH5
+03D     @PRINTF_LU_813.@SCRATCH6
+03E     @PRINTF_LU_813.@SCRATCH7
+03F-040 generate_tone.total_ms_delay_time
+03F.0   atan2.sign
+03F     lcd_putc.c
+040     lcd_gotoxy.x
+040     atan2.quad
+041     lcd_gotoxy.y
+041-042 generate_tone.total_us_delay_time
+042     lcd_gotoxy.address
+043     generate_tone.num_us_delays
+043     lcd_gotoxy.@SCRATCH1
+044     lcd_send_byte.address
+044     generate_tone.num_ms_delays
+045     lcd_send_byte.n
+045     generate_tone.ms_delay_time
+046     generate_tone.us_delay_time
+046     lcd_read_byte.low
+046     lcd_send_byte.@SCRATCH1
+047     lcd_send_nibble.n
+047     lcd_read_byte.high
+047-048 generate_tone.num_periods
+048     lcd_read_nibble.n
+048     lcd_read_byte.@SCRATCH1
+049-04A @DIV1616.P1
+049     do_delay.ms_delay
+049     lcd_read_nibble.@SCRATCH1
+049     generate_tone.@SCRATCH1
+04A     do_delay.num_ms
+04A     generate_tone.@SCRATCH2
+04B-04C @DIV1616.P1
+04B     do_delay.us_delay
+04B     generate_tone.@SCRATCH3
+04C     do_delay.num_us
+04C     generate_tone.@SCRATCH4
+04D     do_delay.i
+04D-050 @MUL3232.P1
+04D     generate_tone.@SCRATCH5
+04D     @DIV1616.@SCRATCH1
+04E     @delay_us1.P1
+04E     @delay_ms1.P2
+04E     generate_tone.@SCRATCH6
+04F     generate_tone.@SCRATCH7
+050     generate_tone.@SCRATCH8
+051-054 @DIV3232.P1
+051-054 @MUL3232.P2
+055-058 @DIV3232.P1
+055     @MUL3232.@SCRATCH1
+056     @MUL3232.@SCRATCH2
+057     @MUL3232.@SCRATCH3
+058     @MUL3232.@SCRATCH4
+059     @DIV3232.@SCRATCH1
+059     @MUL3232.@SCRATCH5
+05A     @DIV3232.@SCRATCH2
+05A     @MUL3232.@SCRATCH6
+05B     @DIV3232.@SCRATCH3
+05C     @DIV3232.@SCRATCH4
+05D     @DIV3232.@SCRATCH5
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000096  LCD_INIT_STRING.call
+0000B0  LCD_INIT_STRING.data
+0000B4  TIMER1_isr
+0000E0  @const897.call
+0000F2  @const899.call
+000104  @const901.call
+000116  @const902.call
+000128  @const908.call
+000138  @const909.call
+000146  @const911.call
+000158  @const912.call
+000166  @const915.call
+000178  @const916.call
+00018C  @const917.call
+00019E  @const918.call
+0001B0  @const919.call
+0001C2  @const920.call
+0001D4  @const922.call
+0001E4  @const923.call
+0001F6  @delay_ms1
+00021C  lcd_send_nibble
+00025C  lcd_read_nibble
+0002AE  lcd_read_byte
+0002F8  lcd_send_byte
+00033E  lcd_init
+0003AC  lcd_set_cgram_char
+0003F6  @SPI_XFER_1
+00044C  read_temp
+000490  lcd_gotoxy
+0004B2  lcd_putc
+000502  @PSTRINGC_813
+000522  begin
+000572  @PSTRINGCN_813
+000590  @PRINTF_LU_813
+000642  @DIV3232
+0006D0  @DIV1616
+000712  @MUL3232
+000768  @delay_us1
+000788  do_delay
+0007BE  generate_tone
+000996  tono
+000A90  buttons
+000B9C  mode
+000D7E  aabs
+000DA2  control
+000DEA  run
+0010AE  end
+001220  @cinit1
+001220  MAIN
+00127C  @cinit2
+
+Project Directory:
+    C:\Users\Andy\Desktop\Nueva carpeta (3)\
+
+Project Files:
+    main.c                                                  [29-abr.-20 16:36  CRC=C783FFBD]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\18F2550.h  [19-jul.-13 10:10  CRC=7707FB52]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h     [28-sep.-12 06:35  CRC=546412C9]
+    main.h                                                  [27-abr.-20 16:17  CRC=00000000]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c      [23-ago.-12 04:01  CRC=D28E8746]
+    tones.c                                                 [29-abr.-20 15:24  CRC=9F78F67C]
+    funciones.c                                             [29-abr.-20 16:34  CRC=8CDE9583]
+
+Source signature=1EB4B6A0
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F2550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
