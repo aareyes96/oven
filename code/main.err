@@ -1,27 +1,27 @@
->>> Warning 203 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 104(1,1): Condition always TRUE
->>> Warning 205 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 117(1,1): Unsigned variable is never less than zero
->>> Warning 204 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 117(1,1): Condition always FALSE
->>> Warning 203 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 121(1,1): Condition always TRUE
->>> Warning 205 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 134(1,1): Unsigned variable is never less than zero
->>> Warning 204 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 134(1,1): Condition always FALSE
->>> Warning 203 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 138(1,1): Condition always TRUE
->>> Warning 205 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 151(1,1): Unsigned variable is never less than zero
->>> Warning 204 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 151(1,1): Condition always FALSE
->>> Warning 203 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 161(1,1): Condition always TRUE
->>> Warning 203 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 172(1,1): Condition always TRUE
->>> Warning 203 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 208(1,1): Condition always TRUE
->>> Warning 203 "C:\Users\Andy\Desktop\Nueva carpeta (3)\funciones.c" Line 230(1,1): Condition always TRUE
+>>> Warning 203 "D:\iWork\Git-works\oven\code\funciones.c" Line 104(1,1): Condition always TRUE
+>>> Warning 205 "D:\iWork\Git-works\oven\code\funciones.c" Line 117(1,1): Unsigned variable is never less than zero
+>>> Warning 204 "D:\iWork\Git-works\oven\code\funciones.c" Line 117(1,1): Condition always FALSE
+>>> Warning 203 "D:\iWork\Git-works\oven\code\funciones.c" Line 121(1,1): Condition always TRUE
+>>> Warning 205 "D:\iWork\Git-works\oven\code\funciones.c" Line 134(1,1): Unsigned variable is never less than zero
+>>> Warning 204 "D:\iWork\Git-works\oven\code\funciones.c" Line 134(1,1): Condition always FALSE
+>>> Warning 203 "D:\iWork\Git-works\oven\code\funciones.c" Line 138(1,1): Condition always TRUE
+>>> Warning 205 "D:\iWork\Git-works\oven\code\funciones.c" Line 151(1,1): Unsigned variable is never less than zero
+>>> Warning 204 "D:\iWork\Git-works\oven\code\funciones.c" Line 151(1,1): Condition always FALSE
+>>> Warning 203 "D:\iWork\Git-works\oven\code\funciones.c" Line 161(1,1): Condition always TRUE
+>>> Warning 203 "D:\iWork\Git-works\oven\code\funciones.c" Line 172(1,1): Condition always TRUE
+>>> Warning 203 "D:\iWork\Git-works\oven\code\funciones.c" Line 208(1,1): Condition always TRUE
+>>> Warning 203 "D:\iWork\Git-works\oven\code\funciones.c" Line 230(1,1): Condition always TRUE
 >>> Warning 202 "main.c" Line 56(7,17): Variable never used:   preheating
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 23(12,18): Variable never used:   C_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 24(12,19): Variable never used:   Db_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 25(12,18): Variable never used:   D_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 26(12,19): Variable never used:   Eb_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 28(12,18): Variable never used:   F_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 29(12,19): Variable never used:   Gb_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 30(12,18): Variable never used:   G_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 31(12,19): Variable never used:   Ab_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 32(12,18): Variable never used:   A_NOTE
->>> Warning 202 "C:\Users\Andy\Desktop\Nueva carpeta (3)\tones.c" Line 33(12,19): Variable never used:   Bb_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 23(12,18): Variable never used:   C_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 24(12,19): Variable never used:   Db_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 25(12,18): Variable never used:   D_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 26(12,19): Variable never used:   Eb_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 28(12,18): Variable never used:   F_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 29(12,19): Variable never used:   Gb_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 30(12,18): Variable never used:   G_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 31(12,19): Variable never used:   Ab_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 32(12,18): Variable never used:   A_NOTE
+>>> Warning 202 "D:\iWork\Git-works\oven\code\tones.c" Line 33(12,19): Variable never used:   Bb_NOTE
       Memory usage:   ROM=15%      RAM=3% - 5%
       0 Errors,  24 Warnings.
 Build Successful.

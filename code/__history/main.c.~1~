@@ -93,7 +93,7 @@ void  TIMER1_isr(void)
 
 void main()
 {
-   setup_timer_1(T1_INTERNAL|T1_DIV_BY_8);      //262 ms overflow
+   setup_timer_1(T1_INTERNAL|T1_DIV_BY_1);      //262 ms overflow
    setup_adc_ports(AN0);
    setup_adc(ADC_CLOCK_INTERNAL);
 

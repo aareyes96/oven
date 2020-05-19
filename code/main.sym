@@ -203,16 +203,16 @@ ROM Allocation:
 00127C  @cinit2
 
 Project Directory:
-    C:\Users\Andy\Desktop\Nueva carpeta (3)\
+    D:\iWork\Git-works\oven\code\
 
 Project Files:
-    main.c                                                  [29-abr.-20 16:36  CRC=C783FFBD]
-    ..\..\..\..\Program Files (x86)\PICC\Devices\18F2550.h  [19-jul.-13 10:10  CRC=7707FB52]
-    ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h     [28-sep.-12 06:35  CRC=546412C9]
+    main.c                                                  [18-may.-20 23:40  CRC=C783FFBD]
+    C:\Program Files (x86)\PICC\Devices\18F2550.h           [19-jul.-13 10:10  CRC=7707FB52]
+    C:\Program Files (x86)\PICC\Drivers\math.h              [28-sep.-12 06:35  CRC=546412C9]
     main.h                                                  [27-abr.-20 16:17  CRC=00000000]
-    ..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c      [23-ago.-12 04:01  CRC=D28E8746]
+    C:\Program Files (x86)\PICC\Drivers\lcd.c               [23-ago.-12 04:01  CRC=D28E8746]
     tones.c                                                 [29-abr.-20 15:24  CRC=9F78F67C]
-    funciones.c                                             [29-abr.-20 16:34  CRC=8CDE9583]
+    funciones.c                                             [18-may.-20 23:45  CRC=8CDE9583]
 
 Source signature=1EB4B6A0
 

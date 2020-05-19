@@ -1,8 +1,7 @@
-C L "MAIN" 0 96 10 "FUNCTION"
-D G "__PCH__" 0 129 ""5.010""
-D G "__DEVICE__" 0 129 "2550"
-D G "__DATE__" 0 129 ""29-abr.-20""
-D G "__TIME__" 0 129 ""16:36:42"" "Standard Header file for the PIC18F2550 device ////////////////"
+D G "__PCH__" 0 120 ""5.010""
+D G "__DEVICE__" 0 120 "2550"
+D G "__DATE__" 0 120 ""18-may.-20""
+D G "__TIME__" 0 120 ""23:45:04"" "Standard Header file for the PIC18F2550 device ////////////////"
 c L "set_tris_a" 1 5 21 "FUNCTION"
 v L "value" 1 36 "int8" `54 
 f B "set_tris_a" 1 36 "void(int8 value)" `53 

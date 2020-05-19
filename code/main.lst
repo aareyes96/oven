@@ -1,6 +1,6 @@
-CCS PCH C Compiler, Version 5.010, 22546               29-abr.-20 16:36
+CCS PCH C Compiler, Version 5.010, 22546               18-may.-20 23:45
 
-               Filename:   C:\Users\Andy\Desktop\Nueva carpeta (3)\main.lst
+               Filename:   D:\iWork\Git-works\oven\code\main.lst
 
                ROM used:   4852 bytes (15%)
                            Largest free fragment is 27912
@@ -5288,8 +5288,8 @@ CCS PCH C Compiler, Version 5.010, 22546               29-abr.-20 16:36
 128E:  CLRF   31
 1290:  CLRF   32
 .................... { 
-....................    setup_timer_1(T1_INTERNAL|T1_DIV_BY_1);      //262 ms overflow 
-1292:  MOVLW  85
+....................    setup_timer_1(T1_INTERNAL|T1_DIV_BY_8);      //262 ms overflow 
+1292:  MOVLW  B5
 1294:  MOVWF  FCD
 ....................    setup_adc_ports(AN0); 
 1296:  MOVF   FC1,W
